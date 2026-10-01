@@ -1,11 +1,23 @@
 # Prerequisites
 *.d
-
+x64/
+.vs/
+packages/
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+*.vcxproj.user
+*.vcxproj.filter.user
 
 # Precompiled Headers
 *.gch
