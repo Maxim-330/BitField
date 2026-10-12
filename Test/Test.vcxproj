@@ -57,6 +57,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Users\monot\source\repos\BitField\APP;C:\Users\monot\source\repos\BitField\Set;C:\Users\monot\source\repos\BitField\BitField;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -109,6 +110,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BitField\BitField.vcxproj">
+      <Project>{76133f22-a13a-461c-bc52-152f096c3513}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Set\Set.vcxproj">
+      <Project>{76c43ebb-efe2-403f-af11-53557796d23a}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
